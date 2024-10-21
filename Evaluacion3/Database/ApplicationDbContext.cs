@@ -7,9 +7,9 @@ namespace Evaluacion3.Database
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<herramienta> Tools { get; set; }
-        public DbSet<usuario> Users { get; set; }
-        public DbSet<movimiento> Movements { get; set; }
-        public DbSet<asignacion> Assignments { get; set; }
+        public DbSet<herramienta> herramientas { get; set; }
+        public DbSet<usuario> usuarios  { get; set; }
+        public DbSet<movimiento> movimientos { get; set; }
+        public DbSet<asignacion> asignacion { get; set; }
     }
 }
